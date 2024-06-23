@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 100px;
+    background: #fff;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+header ul{
+ position: relative;
+ display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 40px;
+    color: #333;
+    font-weight: 400;
+}
+.content{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.content .textBox{
+    max-width: 600px;
+    position: relative;
+}
+.content .textBox h2{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.content .textBox h2 span{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.content .textBox p{
+    color:#333;
+}
+.content .textBox a{
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.content .imgBox{
+    width: 600px;
+    display: flex;
+   justify-content: flex-end;
+   padding-right: 10px;
+   width: 600px;
+   height: 600px;
+}
+.content.imgBox img{
+    max-width: 340px;
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #017143;
+    height: 100%;
+    clip-path: circle(600px at right 800px);
+}
+.sci li{
+    list-style: none;
+}
+.sci{
+    position: absolute;
+    top: 40%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sci li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+}
